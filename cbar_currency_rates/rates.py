@@ -27,7 +27,7 @@ class CBARRates:
         root = ET.fromstring(xml_data)
         currencies = {}
         for valute in root.findall("./ValType[@Type='Xarici valyutalar']/Valute"):
-            code = valute.find("CharCode").text
+            code = valute.attrib.get('Code')  # Access 'Code' attribute directly
             value = float(valute.find("Value").text)
             currencies[code] = value
         return currencies
