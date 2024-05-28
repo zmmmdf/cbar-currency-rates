@@ -1,16 +1,10 @@
+# CBAR Currency Rates
 
-# cbar-currency-rates
-
-- - -
-[![GitHub Ulduzlar](https://img.shields.io/github/stars/zmmmdf/cbar-currency-rates.svg?style=social&label=Ulduzlar&style=plastic)](https://github.com/zmmmdf/cbar-currency-rates/stargazers)
-[![Lisenziya](https://img.shields.io/badge/lisenziya-MIT-green)](./LICENSE)
-[![Azərbaycan dilinə keçid](https://img.shields.io/badge/dil-az-brightgreen)](./README.az.md)
-
-## Məqsəd
+### Məqsəd
 
 cbar-currency-rates, Azərbaycan Respublikası Mərkəzi Bankının (CBAR) XML faylından valyuta mübadilə məzənnələrini asanlıqla əldə etmək məqsədi ilə yaradılıb. Bu, proqramçıların tətbiqlərinə güncəl valyuta məzənnələrini daxil etmələrini və maliyyə hesablamaları və analizlərini asanlaşdırmağını təmin edir.
 
-## Quraşdırma
+### Quraşdırma
 
 cbar-currency-rates'i pip vasitəsi ilə quraşdıra bilərsiniz:
 
@@ -18,7 +12,7 @@ cbar-currency-rates'i pip vasitəsi ilə quraşdıra bilərsiniz:
 pip install cbar-currency-rates
 ```
 
-## İstifadə
+### İstifadə
 
 ```python
 from cbar_currency_rates import rates
@@ -34,7 +28,7 @@ for code, value in rates.items():
     print(code, "-", value)
 ```
 
-## Testlər
+### Testlər
 
 cbar-currency-rates geniş test qapsamı ilə etibarlılığı və dəqiqliyi təmin etmək üçün testlər daxil edir. Testləri işləmək üçün pytest istifadə edə bilərsiniz:
 
@@ -43,7 +37,7 @@ pip install pytest
 pytest
 ```
 
-## Əməkdaşlıq Təlimatları
+### Əməkdaşlıq Təlimatları
 
 cbar-currency-ratesə əməkdaşlıqlar dəstəklənir və təşvik olunur! Əməkdaşlıq etmək üçün, zəhmət olmasa, aşağıdakı təlimatları izləyin:
 
@@ -52,15 +46,3 @@ cbar-currency-ratesə əməkdaşlıqlar dəstəklənir və təşvik olunur! Əm�
 3. Dəyişikliklərinizi əlavə edin (`git commit -am 'Bir xüsusiyyət əlavə etdim'`).
 4. Dəyişikliklərinizi şöbənizə göndərin (`git push origin feature/my-feature`).
 5. Dəyişiklikləriniz barədə aydın izahatlarla bir pull istəyi göndərin.
-
-## Əməkdaşlar
-
-Bu layihə, məsul və məşğul fərdlərin əməyinin nəticəsidir:
-
-<!-- Əməkdaşlar siyahısı -->
-<a href="https://github.com/zmmmdf/cbar-currency-rates/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=zmmmdf/cbar-currency-rates" />
-</a>
-
-<!-- [contrib.rocks](https://contrib.rocks) ilə hazırlanmışdır. -->
-<!-- Əməkdaşlar siyahısı -->
