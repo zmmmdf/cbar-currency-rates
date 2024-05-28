@@ -1,8 +1,5 @@
 # CBAR Currency Rates
 
-Certainly! Here's the README.md file with the purpose, usage, installation, testing, and contribution guidelines in both Azerbaijani and English:
-
-
 ### Purpose
 
 cbar-currency-rates serves the purpose of providing easy access to currency exchange rates from the Central Bank of Azerbaijan Republic (CBAR) XML file. It enables developers to integrate up-to-date currency rates into their applications, facilitating financial calculations and analysis.
