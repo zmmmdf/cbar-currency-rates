@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='cbar-currency-rates',
-    version='1.0.0',
+    version='1.1.0',
     description='A Python library for fetching currency rates from the Central Bank of Azerbaijan Republic (CBAR) XML file.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
