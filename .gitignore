@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*~
+*.bak
+*.swp
+
+# Distribution / packaging
+build/
+dist/
+
+# PyInstaller
+*.spec
+
+# Project specific
+.env
+.env.*
