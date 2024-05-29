@@ -4,7 +4,7 @@ __pycache__/
 *~
 *.bak
 *.swp
-
+*cache
 # Distribution / packaging
 build/
 dist/

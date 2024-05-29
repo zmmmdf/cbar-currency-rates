@@ -6,4 +6,4 @@ COPY . .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-CMD [ "python", "./your_script.py" ]
+CMD [ "python", "cbar_currency_rates/rates.py" ]
